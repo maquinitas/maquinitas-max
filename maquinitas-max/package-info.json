@@ -1,0 +1,24 @@
+{
+    "author" : "aaron montoya-moraga",
+    "description" : "software library for controlling hardware midi instruments",
+    "homepatcher" : "maquinitas-start.maxpat",
+    "max_version_min" : "7.1", "max_version_max" : "none",
+    "name" : "maquinitas",
+    "os" : {
+        "macintosh" : {
+            "platform" : [ "ia32", "x64" ],
+            "min_version" : "none"
+        },
+        "windows" : {
+            "platform" : [ "ia32", "x64" ],
+            "min_version" : "none"
+        }
+    },
+    "package_extra" : {
+        "reverse_domain" : "io.montoyamoraga",
+        "copyright" : "Copyright (c) 2018 aaron montoya-moraga"
+    },
+    "tags" : [ ],
+    "version" : "0.0.2",
+    "website" : "http://github.com/montoyamoraga/maquinitas"
+}
