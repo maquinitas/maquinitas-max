@@ -2,7 +2,7 @@
 
 ## About  
 
-maquinitas-m4l is the Max flavor of the maquinitas software library.  
+maquinitas-max is the Max flavor of the maquinitas software library.  
 
 ## Contents
 
@@ -11,7 +11,9 @@ There are two types of patches:
 * maq.inst patches are specific for different hardware MIDI instruments.
 * maq.util patches are general utilities.
 
-List of available Max patches:
+## List of Max patches
+
+### Drafts
 
 * maq.inst.alesis-sr-16.maxpat
 * maq.inst.bastl-microgranny-2.maxpat
