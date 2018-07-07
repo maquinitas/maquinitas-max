@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 170.0, 79.0, 1050.0, 623.0 ],
+		"rect" : [ -491.0, -1005.0, 1050.0, 623.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,18 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 884.0, 798.0, 100.0, 22.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-3",
 					"maxclass" : "newobj",
@@ -459,7 +471,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2265.800049, 891.899902, 86.0, 22.0 ],
 					"style" : "",
-					"text" : "185 20 47"
+					"text" : "185 20 0"
 				}
 
 			}
@@ -1266,7 +1278,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2986.199951, 855.199951, 93.0, 22.0 ],
 					"style" : "",
-					"text" : "153 38 102"
+					"text" : "153 51 0"
 				}
 
 			}
@@ -3124,7 +3136,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1046.800049, 891.899902, 86.0, 22.0 ],
 					"style" : "",
-					"text" : "185 86 40"
+					"text" : "185 86 0"
 				}
 
 			}
@@ -4026,7 +4038,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 353.199951, 850.0, 93.0, 22.0 ],
 					"style" : "",
-					"text" : "153 51 108"
+					"text" : "153 51 0"
 				}
 
 			}
@@ -4173,7 +4185,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-120",
-					"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2", ",", "TR-09" ],
+					"items" : [ "AU DLS Synth 1", ",", "micro lite Port 1", ",", "micro lite Port 2", ",", "micro lite Port 3", ",", "micro lite Port 4", ",", "micro lite Port 5", ",", "from Max 1", ",", "from Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
