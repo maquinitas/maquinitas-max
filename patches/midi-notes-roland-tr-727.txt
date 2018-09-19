@@ -1,0 +1,15 @@
+0, 60 "hi bongo";
+1, 61 "low bongo";
+2, 62 "mute hi conga";
+3, 63 "open hi conga";
+4, 64 "low conga";
+5, 65 "hi timbale";
+6, 66 "low timbale";
+7, 67 "hi agogo";
+8, 68 "low agogo";
+9, 69 "cabasa";
+10, 70 "maracas";
+11, 71 "short whistle";
+11, 72 "long whistle";
+11, 73 "quijada";
+11, 74 "star chime";
