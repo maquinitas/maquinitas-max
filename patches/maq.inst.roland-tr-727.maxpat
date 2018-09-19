@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -471,7 +471,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2265.800049, 891.899902, 86.0, 22.0 ],
 					"style" : "",
-					"text" : "185 20 0"
+					"text" : "185 0 0"
 				}
 
 			}
@@ -696,7 +696,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -1278,7 +1278,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2986.199951, 855.199951, 93.0, 22.0 ],
 					"style" : "",
-					"text" : "153 51 0"
+					"text" : "153 0 0"
 				}
 
 			}
@@ -1576,7 +1576,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -2158,7 +2158,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1766.199951, 837.0, 93.0, 22.0 ],
 					"style" : "",
-					"text" : "153 36 0"
+					"text" : "153 0 0"
 				}
 
 			}
@@ -2456,7 +2456,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -3136,7 +3136,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1046.800049, 891.899902, 86.0, 22.0 ],
 					"style" : "",
-					"text" : "185 86 0"
+					"text" : "185 0 0"
 				}
 
 			}
@@ -4038,7 +4038,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 353.199951, 850.0, 93.0, 22.0 ],
 					"style" : "",
-					"text" : "153 51 0"
+					"text" : "153 0 0"
 				}
 
 			}
@@ -4185,7 +4185,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-120",
-					"items" : [ "AU DLS Synth 1", ",", "micro lite Port 1", ",", "micro lite Port 2", ",", "micro lite Port 3", ",", "micro lite Port 4", ",", "micro lite Port 5", ",", "from Max 1", ",", "from Max 2" ],
+					"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -4380,9 +4380,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 17.0, 11.0, 99.0, 33.0 ],
+					"patching_rect" : [ 17.0, 11.0, 106.0, 33.0 ],
 					"style" : "",
-					"text" : "maquinitas\nmaq.roland-tr-09"
+					"text" : "maquinitas\nmaq.roland-tr-727"
 				}
 
 			}
@@ -6597,20 +6597,6 @@
 				"bootpath" : "~/github/maquinitas/maquinitas-max/patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "roland-tr-09-notes.txt",
-				"bootpath" : "~/github/maquinitas/maquinitas-max/patches",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "roland-tr-09-cc.txt",
-				"bootpath" : "~/github/maquinitas/maquinitas-max/patches",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
  ],
