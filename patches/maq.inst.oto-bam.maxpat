@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 146.0, -1088.0, 1447.0, 852.0 ],
+		"rect" : [ -228.0, -871.0, 1447.0, 852.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,280 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-194",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 14.474915, 199.700012, 49.0, 22.0 ],
+					"presentation_rect" : [ 82.774902, 409.0, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "midiout"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-190",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 14.474915, 89.300049, 60.0, 22.0 ],
+					"presentation_rect" : [ 43.474915, 247.300049, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-191",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 14.474915, 116.300049, 24.0, 24.0 ],
+					"presentation_rect" : [ 43.474915, 276.300049, 0.0, 0.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-192",
+					"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2" ],
+					"maxclass" : "umenu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 14.474915, 171.700012, 117.0, 22.0 ],
+					"presentation_rect" : [ 43.474915, 335.300049, 0.0, 0.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-193",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 14.474915, 144.700012, 52.0, 22.0 ],
+					"presentation_rect" : [ 43.474915, 308.300049, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "midiinfo"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-189",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 7,
+							"minor" : 3,
+							"revision" : 5,
+							"architecture" : "x86",
+							"modernui" : 1
+						}
+,
+						"rect" : [ 96.0, 104.0, 1244.0, 762.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-26",
+									"linecount" : 12,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 1176.0, 150.0, 28.0, 167.0 ],
+									"presentation_rect" : [ 181.0, 542.0, 0.0, 0.0 ],
+									"style" : "",
+									"text" : "12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-25",
+									"linecount" : 12,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 1092.0, 150.0, 82.0, 167.0 ],
+									"presentation_rect" : [ 178.0, 614.0, 0.0, 0.0 ],
+									"style" : "",
+									"text" : "Size\nPre Delay\nMix\nReverb Time\nDamping\nActive\nType\nIn Gain\nLow-cut\nHigh-cut\nChorus\nFreeze"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-24",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 1176.0, 128.0, 28.0, 20.0 ],
+									"presentation_rect" : [ 178.0, 583.0, 0.0, 0.0 ],
+									"style" : "",
+									"text" : "CC"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-23",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 1092.0, 128.0, 46.0, 20.0 ],
+									"style" : "",
+									"text" : "Param"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-21",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 1092.0, 106.0, 49.0, 20.0 ],
+									"style" : "",
+									"text" : "Table 3"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-6",
+									"linecount" : 36,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 963.0, 150.0, 116.0, 489.0 ],
+									"presentation_rect" : [ 195.0, 552.0, 0.0, 0.0 ],
+									"style" : "",
+									"text" : "01 - 37 - 073 - 109\n02 - 38 - 074 - 110 \n03 - 39 - 075 - 111\n04 - 40 - 076 - 112\n05 - 41 - 077 - 113\n06 - 42 - 078 - 114\n07 - 43 - 079 - 115\n08 - 44 - 080 - 116\n09 - 45 - 081 - 117\n10 - 46 - 082 - 118\n11 - 47 - 083 - 119\n12 - 48 - 084 - 120\n13 - 49 - 085 - 121\n14 - 50 - 086 - 122 \n15 - 51 - 087 - 123\n16 - 52 - 088 - 124\n17 - 53 - 089 - 125\n18 - 54 - 090 - 126\n19 - 55 - 091 - 127\n20 - 56 - 092 - 128\n21 - 57 - 093 - \n22 - 58 - 094 - \n23 - 59 - 095 - \n24 - 60 - 096 - \n25 - 61 - 097 - \n26 - 62 - 098 - \n27 - 63 - 099 - \n28 - 64 - 100 - \n29 - 65 - 101 - \n30 - 66 - 102 - \n31 - 67 - 103 - \n32 - 68 - 104 - \n33 - 69 - 105 - \n34 - 70 - 106 - \n35 - 71 - 107 - \n36 - 72 - 108 - "
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-5",
+									"linecount" : 36,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 930.0, 150.0, 31.0, 489.0 ],
+									"presentation_rect" : [ 147.0, 551.0, 0.0, 0.0 ],
+									"style" : "",
+									"text" : "1.1\n1.2\n1.3\n1.4\n1.5\n1.6\n2.1\n2.2\n2.3\n2.4\n2.5\n2.6\n3.1\n3.2\n3.3\n3.4\n3.5\n3.6\n4.1\n4.2\n4.3\n4.4\n4.5\n4.6\n5.1\n5.2\n5.3\n5.4\n5.5\n5.6\n6.1\n6.2\n6.3\n6.4\n6.5\n6.6"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-4",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 916.0, 106.0, 49.0, 20.0 ],
+									"presentation_rect" : [ 147.0, 510.0, 0.0, 0.0 ],
+									"style" : "",
+									"text" : "Table 2"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-3",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 963.0, 128.0, 86.0, 20.0 ],
+									"presentation_rect" : [ 205.0, 530.0, 0.0, 0.0 ],
+									"style" : "",
+									"text" : "PGM Chge Nr"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-2",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 916.0, 128.0, 45.0, 20.0 ],
+									"style" : "",
+									"text" : "Preset"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-188",
+									"linecount" : 35,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 21.5, 4.799988, 878.0, 489.0 ],
+									"style" : "",
+									"text" : "MIDI settings menu gives you access to the following functions\n- MIDI channel selection\n- MIDI filters\n- Program Change map\nTo access the MIDI menu, press the ACTIVE switch while pressing the PRESET switch.\nThe TAP, TYPE, and IN GAIN switches flash.\nPress any of these switches to access the corresponding sub-menu\n\n1. CHANNEL\n\nOne of the 16 LEDS will flash and display which channel is selected. You can select a MIDI channel by turning the DATA pot.\n\n2. MIDI FILTERS\n\nOne of the TAP or TYPE switch is \n- lit (the filter is off, BAM will accept the corresponding MIDI message)\n- or flashing (the filter is on, BAM will ignore the corresponding MIDI message).\n\nThe 2 MIDI FILTERS are:\n1. Continuous controllers (TAP switch)\n2. Program Change (TYPE switch)\n\nTo activate or deactivate a filter, press the corresponding switch\n\n3. PGM CHANGE MAP\n\nBAM has 36 presets and MIDI Program Change messages have 128 values. You can associate any BAM preset to any program change message number.\n\nWhen the PGM Change Map sub-menu is selected, send a Program Change message from your computer, sequencer, or any MIDI device. \nAs soon as BAM receives a Program Change message, it will give you acess to a preset selection menu (same as \"Recall a Preset\" cf page 15).\n\nReset Program Change Map\nIf you press CHORUS and FREEZE switches simultaneously while you are in the PGM change map sub-menu, the Program Change map will be reset (cf Table 2).\n\nTo exit the MIDI menu, press the ACTIVE or the PRESET switch.\n"
+								}
+
+							}
+ ],
+						"lines" : [  ]
+					}
+,
+					"patching_rect" : [ 14.474915, 43.0, 40.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"style" : "",
+						"tags" : ""
+					}
+,
+					"style" : "",
+					"text" : "p info"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-133",
 					"maxclass" : "comment",
@@ -471,7 +745,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2666.5, 812.700073, 86.0, 22.0 ],
 					"style" : "",
-					"text" : "176 19 55"
+					"text" : "176 19 0"
 				}
 
 			}
@@ -1037,7 +1311,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 2011.5, 807.700073, 86.0, 22.0 ],
 					"style" : "",
-					"text" : "176 13 46"
+					"text" : "176 13 0"
 				}
 
 			}
@@ -1190,56 +1464,6 @@
 					"patching_rect" : [ 1662.699951, 692.900024, 73.0, 22.0 ],
 					"style" : "",
 					"text" : "loadmess 3"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-13",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 22.57489, 455.800049, 166.0, 20.0 ],
-					"style" : "",
-					"text" : "todo: pages 23 24 25 manual"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-12",
-					"linecount" : 23,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 50.57489, 133.0, 190.0, 315.0 ],
-					"style" : "",
-					"text" : "MOD LFO RATE\nMOD LFO VCO AMOUNT\nMOD LFO VCF AMOUNT\nLFO MIDI SYNC\nLFO SYNC CLOCK DIV\nLFO KEY TRIGGER\nOSCS VCO 1 WAVE\nOSCS VCO 2 WAVE\nOSCS VCO 2 FREQ\nOSCS VCO 2 BEAT\nOSCS NOTE SYNC\nOSCS GLIDE RATE\nOSCS GLIDE SWITCH\nOSCS GLIDE TYPE\nOSCS LEGATO GLIDE\nMIXER VCO 1\nMIXER VCO 2\nMIXER EXTERNAL IN LEVEL\nFILTER CUTOFF\nFILTER RESONANCE\nFILTER EG AMOUNT\nFILTER KB TRACK\nFILTER VELOCITY SENSITIVITY"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-9",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 22.57489, 116.0, 22.0, 20.0 ],
-					"style" : "",
-					"text" : "cc"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-7",
-					"linecount" : 23,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 22.57489, 133.0, 26.0, 315.0 ],
-					"style" : "",
-					"text" : "3\n13\n12\n87\n86\n8270\n71\n17\n18\n81\n5\n65\n92\n83\n15\n16\n27\n19\n21\n22\n20\n89"
 				}
 
 			}
@@ -1768,7 +1992,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1453.5, 825.900024, 86.0, 22.0 ],
 					"style" : "",
-					"text" : "176 3 46"
+					"text" : "176 3 0"
 				}
 
 			}
@@ -1963,7 +2187,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -2553,7 +2777,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 322.57489, 922.0, 93.0, 22.0 ],
 					"style" : "",
-					"text" : "144 119 36"
+					"text" : "144 0 0"
 				}
 
 			}
@@ -2672,7 +2896,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -3737,7 +3961,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-10",
-					"items" : [ "AU DLS Synth 1", ",", "micro lite Port 1", ",", "micro lite Port 2", ",", "micro lite Port 3", ",", "micro lite Port 4", ",", "micro lite Port 5", ",", "from Max 1", ",", "from Max 2", ",", "Scarlett 18i20 USB" ],
+					"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3763,26 +3987,14 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-2",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 14.474915, 69.0, 168.0, 20.0 ],
-					"style" : "",
-					"text" : "midi in channel is 1 by default"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-1",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 14.474915, 25.0, 136.0, 33.0 ],
+					"patching_rect" : [ 14.474915, 8.0, 103.0, 33.0 ],
 					"style" : "",
-					"text" : "maquinitas\nmaq.inst.moog-minitaur"
+					"text" : "maquinitas\nmaq.inst.oto-bam"
 				}
 
 			}
@@ -4559,6 +4771,34 @@
 				"patchline" : 				{
 					"destination" : [ "obj-6", 1 ],
 					"source" : [ "obj-187", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-191", 0 ],
+					"source" : [ "obj-190", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-193", 0 ],
+					"source" : [ "obj-191", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-194", 0 ],
+					"source" : [ "obj-192", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-192", 0 ],
+					"source" : [ "obj-193", 0 ]
 				}
 
 			}
