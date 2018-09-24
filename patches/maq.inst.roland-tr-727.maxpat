@@ -57,7 +57,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 533.399841, 182.800049, 74.0, 20.0 ],
-					"presentation_rect" : [ 591.249939, 175.800049, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "ms per beat"
 				}
@@ -95,7 +94,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 148.199951, 353.299866, 139.0, 20.0 ],
-					"presentation_rect" : [ 714.199951, 650.699768, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "Default MIDI channel 10"
 				}
@@ -123,7 +121,6 @@
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 148.199951, 464.900146, 50.0, 22.0 ],
-					"presentation_rect" : [ 713.0, 794.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -185,7 +182,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 431.399902, 323.399963, 77.0, 20.0 ],
-					"presentation_rect" : [ 1020.0, 223.5, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "step number"
 				}
@@ -237,7 +233,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 408.399902, 445.300049, 94.0, 22.0 ],
 					"style" : "",
-					"text" : "\"mute hi conga\""
+					"text" : "\"hi bongo\""
 				}
 
 			}
@@ -663,7 +659,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 356.199951, 529.0, 93.0, 22.0 ],
 					"style" : "",
-					"text" : "153 62 57"
+					"text" : "153 60 0"
 				}
 
 			}
