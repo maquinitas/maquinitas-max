@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -561,7 +561,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1468.0, 787.900024, 86.0, 22.0 ],
 					"style" : "",
-					"text" : "176 46 17"
+					"text" : "176 0 0"
 				}
 
 			}
@@ -800,7 +800,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -1390,7 +1390,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 337.07489, 884.0, 93.0, 22.0 ],
 					"style" : "",
-					"text" : "144 63 18"
+					"text" : "144 0 0"
 				}
 
 			}
@@ -1509,7 +1509,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -2574,7 +2574,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-10",
-					"items" : [ "AU DLS Synth 1", ",", "micro lite Port 1", ",", "micro lite Port 2", ",", "micro lite Port 3", ",", "micro lite Port 4", ",", "micro lite Port 5", ",", "from Max 1", ",", "from Max 2" ],
+					"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2609,12 +2609,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 62.0, 401.0, 179.0, 225.0 ],
+						"rect" : [ 73.0, 401.0, 179.0, 225.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2641,7 +2641,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-28",
@@ -3944,13 +3943,6 @@
 				"bootpath" : "~/github/maquinitas/maquinitas-max/patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "korg-volca-fm-cc.txt",
-				"bootpath" : "~/github/maquinitas/maquinitas-max/patches",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
  ],
