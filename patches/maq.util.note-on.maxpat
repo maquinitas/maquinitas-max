@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 453.0, -860.0, 874.0, 617.0 ],
+		"rect" : [ 453.0, -860.0, 197.0, 329.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -43,10 +43,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 162.0, 279.0, 112.0, 33.0 ],
-					"presentation_rect" : [ 165.0, 277.0, 0.0, 0.0 ],
+					"patching_rect" : [ 14.0, 256.0, 55.0, 33.0 ],
 					"style" : "",
-					"text" : "number\nnote on "
+					"text" : "number\nnote on"
 				}
 
 			}
@@ -57,7 +56,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 214.0, 215.0, 90.0, 33.0 ],
+					"patching_rect" : [ 66.0, 192.0, 90.0, 33.0 ],
 					"style" : "",
 					"text" : "note on\nfor the channel"
 				}
@@ -71,7 +70,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 162.0, 215.0, 50.0, 22.0 ],
+					"patching_rect" : [ 14.0, 192.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -83,7 +82,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 162.0, 184.0, 41.0, 22.0 ],
+					"patching_rect" : [ 14.0, 161.0, 41.0, 22.0 ],
 					"style" : "",
 					"text" : "+ 143"
 				}
@@ -96,7 +95,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 196.0, 120.0, 72.0, 22.0 ],
+					"patching_rect" : [ 48.0, 97.0, 72.0, 22.0 ],
 					"style" : "",
 					"text" : "loadmess 1"
 				}
@@ -110,7 +109,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 162.0, 154.0, 50.0, 22.0 ],
+					"patching_rect" : [ 14.0, 131.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -122,7 +121,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 196.0, 71.0, 112.0, 47.0 ],
+					"patching_rect" : [ 48.0, 48.0, 112.0, 47.0 ],
 					"style" : "",
 					"text" : "number\nMIDI channel 1-16\ndefault 1"
 				}
@@ -130,27 +129,27 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "\"number - note on\"",
 					"id" : "obj-4",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 162.0, 247.0, 30.0, 30.0 ],
+					"patching_rect" : [ 14.0, 224.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"comment" : "\"number - MIDI channel 1-16 - default 1\"",
 					"id" : "obj-2",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 162.0, 71.0, 30.0, 30.0 ],
+					"patching_rect" : [ 14.0, 48.0, 30.0, 30.0 ],
 					"style" : ""
 				}
 
@@ -206,9 +205,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [  ],
-		"autosave" : 0
+ ]
 	}
 
 }
