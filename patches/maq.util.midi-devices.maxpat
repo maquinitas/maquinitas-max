@@ -2,14 +2,15 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 7,
-			"minor" : 3,
-			"revision" : 5,
-			"architecture" : "x86",
+			"major" : 8,
+			"minor" : 0,
+			"revision" : 0,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ -162.0, -759.0, 207.0, 227.0 ],
+		"classnamespace" : "box",
+		"rect" : [ 73.0, 79.0, 190.0, 200.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -44,7 +45,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 8.0, 54.0, 60.0, 22.0 ],
-					"style" : "",
 					"text" : "loadbang"
 				}
 
@@ -56,24 +56,23 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 8.0, 82.5, 24.0, 24.0 ],
-					"style" : ""
+					"parameter_enable" : 0,
+					"patching_rect" : [ 8.0, 82.5, 24.0, 24.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-120",
-					"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2" ],
+					"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2", ",", "Express  128 Port 1", ",", "Express  128 Port 2", ",", "Express  128 Port 3", ",", "Express  128 Port 4", ",", "Express  128 Port 5", ",", "Express  128 Port 6", ",", "Express  128 Port 7", ",", "Express  128 Port 8", ",", "Scarlett 18i20 USB" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 137.5, 117.0, 22.0 ],
+					"patching_rect" : [ 8.0, 137.5, 155.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.0, 7.0, 117.0, 22.0 ],
-					"style" : ""
+					"presentation_rect" : [ 0.0, 0.0, 155.0, 22.0 ]
 				}
 
 			}
@@ -85,7 +84,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 8.0, 111.5, 52.0, 22.0 ],
-					"style" : "",
 					"text" : "midiinfo"
 				}
 
@@ -97,8 +95,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 89.0, 164.0, 74.0, 33.0 ],
-					"style" : "",
+					"patching_rect" : [ 108.0, 164.0, 74.0, 33.0 ],
 					"text" : "message\nMIDI device"
 				}
 
@@ -111,7 +108,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 106.0, 46.0, 48.0, 33.0 ],
-					"style" : "",
 					"text" : "bang\nrefresh"
 				}
 
@@ -124,8 +120,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 57.0, 167.0, 30.0, 30.0 ],
-					"style" : ""
+					"patching_rect" : [ 76.0, 167.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -138,8 +133,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 74.0, 46.0, 30.0, 30.0 ],
-					"style" : ""
+					"patching_rect" : [ 74.0, 46.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -151,9 +145,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 8.0, 6.0, 123.0, 33.0 ],
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 14.0, 7.0, 121.0, 33.0 ],
-					"style" : "",
 					"text" : "maquinitas\nmaq.util.midi-devices"
 				}
 

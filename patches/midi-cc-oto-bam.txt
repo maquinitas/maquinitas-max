@@ -1,0 +1,12 @@
+0, 12 "size";
+1, 13 "pre delay";
+2, 14 "mix";
+3, 15 "reverb time";
+4, 16 "damping";
+5, 17 "active";
+6, 18 "type";
+7, 19 "in gain";
+8, 20 "low-cut";
+9, 21 "high-cut";
+10, 22 "chorus";
+11, 23 "freeze";

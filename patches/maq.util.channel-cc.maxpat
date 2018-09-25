@@ -2,14 +2,15 @@
 	"patcher" : 	{
 		"fileversion" : 1,
 		"appversion" : 		{
-			"major" : 7,
-			"minor" : 3,
-			"revision" : 5,
-			"architecture" : "x86",
+			"major" : 8,
+			"minor" : 0,
+			"revision" : 0,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 453.0, -860.0, 197.0, 329.0 ],
+		"classnamespace" : "box",
+		"rect" : [ 1083.0, 79.0, 197.0, 329.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,21 +45,18 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 14.0, 256.0, 55.0, 33.0 ],
-					"style" : "",
-					"text" : "number\nnote on"
+					"text" : "number\ncc"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-17",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 66.0, 192.0, 90.0, 33.0 ],
-					"style" : "",
-					"text" : "note on\nfor the channel"
+					"patching_rect" : [ 66.0, 192.0, 85.0, 20.0 ],
+					"text" : "cc for channel"
 				}
 
 			}
@@ -70,8 +68,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 14.0, 192.0, 50.0, 22.0 ],
-					"style" : ""
+					"patching_rect" : [ 14.0, 192.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -83,8 +80,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 14.0, 161.0, 41.0, 22.0 ],
-					"style" : "",
-					"text" : "+ 143"
+					"text" : "+ 175"
 				}
 
 			}
@@ -96,7 +92,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 48.0, 97.0, 72.0, 22.0 ],
-					"style" : "",
 					"text" : "loadmess 1"
 				}
 
@@ -109,8 +104,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 14.0, 131.0, 50.0, 22.0 ],
-					"style" : ""
+					"patching_rect" : [ 14.0, 131.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -122,21 +116,19 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 48.0, 48.0, 112.0, 47.0 ],
-					"style" : "",
 					"text" : "number\nMIDI channel 1-16\ndefault 1"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "\"number - note on\"",
+					"comment" : "\"number - cc\"",
 					"id" : "obj-4",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 14.0, 224.0, 30.0, 30.0 ],
-					"style" : ""
+					"patching_rect" : [ 14.0, 224.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -144,13 +136,12 @@
 				"box" : 				{
 					"comment" : "\"number - MIDI channel 1-16 - default 1\"",
 					"id" : "obj-2",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 14.0, 48.0, 30.0, 30.0 ],
-					"style" : ""
+					"patching_rect" : [ 14.0, 48.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -161,11 +152,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 14.0, 7.0, 97.0, 33.0 ],
+					"patching_rect" : [ 14.0, 7.0, 112.0, 33.0 ],
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 14.0, 7.0, 121.0, 33.0 ],
-					"style" : "",
-					"text" : "maquinitas\nmaq.util.note-on"
+					"text" : "maquinitas\nmaq.util.channel-cc"
 				}
 
 			}
@@ -205,7 +194,9 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [  ],
+		"autosave" : 0
 	}
 
 }
