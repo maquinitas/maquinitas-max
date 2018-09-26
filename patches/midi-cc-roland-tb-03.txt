@@ -1,0 +1,10 @@
+0, 12 "env mod";
+1, 16 "accent level";
+2, 17 "overdrive";
+3, 18 "delay time";
+4, 19 "delay feedback";
+5, 71 "resonance";
+6, 74 "cutoff freq";
+7, 75 "decay";
+8, 102 "slide status";
+9, 104 "tuning";
