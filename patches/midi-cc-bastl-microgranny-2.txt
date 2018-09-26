@@ -1,0 +1,12 @@
+0, 0 "preset change";
+1, 1 "mod wheel";
+2, 64 "sustain";
+3, 102 "sampleRate";
+4, 103 "crush";
+5, 104 "attack";
+6, 105 "release";
+7, 106 "grainSize";
+8, 107 "shiftSpeed";
+9, 108 "start";
+10, 109 "end";
+11, 127 "randomize";
