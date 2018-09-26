@@ -228,7 +228,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 177.2000732421875, 472.0, 255.9500732421875, 22.0 ],
+					"patching_rect" : [ 159.2000732421875, 472.0, 258.9500732421875, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.2000732421875, 24.0, 311.9500732421875, 22.0 ],
 					"text" : "\"bd level\""
 				}
 
