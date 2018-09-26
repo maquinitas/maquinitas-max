@@ -1,0 +1,10 @@
+0, 40 "pulse color";
+1, 41 "pulse level";
+2, 42 "amp attack";
+3, 43 "amp decay";
+4, 44 "drive";
+5, 45 "tone";
+6, 46 "resonator pitch";
+7, 47 "resonator bend";
+8, 48 "resonator bend";
+9, 49 "resonator time";
