@@ -39,6 +39,97 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-14",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 197.5, 749.0, 47.0, 22.0 ],
+					"text" : "midiout"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-13",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "maq.util.midi-devices.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 62.5, 700.0, 163.0, 25.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-8",
+					"linecount" : 10,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 695.0, 57.0, 188.0, 141.0 ],
+					"text" : "\n\nroland tr-09 + oto bam\nroland tb-03\nkorg volca fm + moog mf-104m\nbastl microgranny 2 + bastl thyme\n5\n6\n7\n8"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"linecount" : 10,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 655.0, 57.0, 38.0, 141.0 ],
+					"text" : "audio\nin\n1\n2\n3\n4\n5\n6\n7\n8"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"linecount" : 10,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 524.0, 57.0, 113.0, 141.0 ],
+					"text" : "\n\nroland tr-09\noto bam\nroland tb-03\nkorg volca fm\nmoog mf-104m\nbastl microgranny 2\nbastl thyme\n8"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"linecount" : 10,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 491.0, 57.0, 31.0, 141.0 ],
+					"text" : "midi\nout\n1\n2\n3\n4\n5\n6\n7\n8"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"linecount" : 7,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 355.0, 142.0, 111.0, 100.0 ],
+					"text" : "bast microgranny 2\nbastl thyme\nkorg volca fm\nmoog mf-104m\noto bam\nroland tr-09\nroland tb-03"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
@@ -52,7 +143,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 573.0, 16.0, 128.0, 75.0 ],
+					"patching_rect" : [ 355.0, 57.0, 128.0, 75.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -83,7 +174,7 @@
 					"numinlets" : 8,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 8.0, 45.0, 549.0, 289.0 ],
+					"patching_rect" : [ 8.0, 47.0, 273.0, 283.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -145,6 +236,13 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-14", 0 ],
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
  ],
 		"dependency_cache" : [ 			{
 				"name" : "maq.util.mixer.maxpat",
@@ -155,6 +253,13 @@
 			}
 , 			{
 				"name" : "maq.util.clock.maxpat",
+				"bootpath" : "~/github/maquinitas/maquinitas-max/patches",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "maq.util.midi-devices.maxpat",
 				"bootpath" : "~/github/maquinitas/maquinitas-max/patches",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
