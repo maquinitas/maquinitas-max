@@ -216,8 +216,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "int" ],
-					"patching_rect" : [ 57.0, 217.60009765625, 41.0, 22.0 ],
-					"text" : "folder"
+					"patching_rect" : [ 57.0, 217.60009765625, 153.0, 22.0 ],
+					"text" : "folder :../midicontrolchange"
 				}
 
 			}
