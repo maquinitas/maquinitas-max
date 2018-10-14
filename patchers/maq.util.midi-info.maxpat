@@ -44,7 +44,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 169.0, 214.0, 190.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "go one folder up and then to misc/"
 				}
 
@@ -221,7 +220,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-135",
-					"items" : [ "cc-bastl-microgranny-2.txt", ",", "cc-bastl-thyme.txt", ",", "cc-cyclone-analogic-tt-78.txt", ",", "cc-korg-volca-beats.txt", ",", "cc-korg-volca-fm.txt", ",", "cc-korg-volca-kick.txt", ",", "cc-moog-mf-104m.txt", ",", "cc-moog-minitaur.txt", ",", "cc-oto-bam.txt", ",", "cc-roland-tb-03.txt", ",", "cc-roland-tr-09.txt", ",", "notes-roland-tr-09.txt", ",", "notes-roland-tr-727.txt" ],
+					"items" : [ "cc-bastl-microgranny2.txt", ",", "cc-bastl-thyme.txt", ",", "cc-cyclone-tt78.txt", ",", "cc-korg-volcabeats.txt", ",", "cc-korg-volcafm.txt", ",", "cc-korg-volcakick.txt", ",", "cc-moog-mf104m.txt", ",", "cc-moog-minitaur.txt", ",", "cc-oto-bam.txt", ",", "cc-roland-tb03.txt", ",", "cc-roland-tr09.txt", ",", "notes-roland-tr09.txt", ",", "notes-roland-tr727.txt" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -229,7 +228,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 57.0, 281.70001220703125, 259.400146484375, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 260.0, 22.0 ]
+					"presentation_rect" : [ 0.0, 0.0, 171.0, 22.0 ]
 				}
 
 			}
@@ -254,7 +253,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 169.2000732421875, 505.0, 258.9500732421875, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.2000732421875, 24.0, 311.9500732421875, 22.0 ],
+					"presentation_rect" : [ 0.2000732421875, 24.0, 223.2999267578125, 22.0 ],
 					"text" : "\"bd level\""
 				}
 
@@ -292,7 +291,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 177.2000732421875, 340.60009765625, 50.5, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 261.400146484375, 0.0, 50.5, 22.0 ],
+					"presentation_rect" : [ 173.0, 0.0, 50.5, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0
 					}

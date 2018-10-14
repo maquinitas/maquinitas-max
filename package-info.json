@@ -1,0 +1,24 @@
+{
+    "author" : "Aarón Montoya-Moraga",
+    "description" : "Use easing functions in Max for audio, visuals, and automation.",
+    "homepatcher" : "Easing Functions.maxpat",
+    "max_version_min" : "7.1", "max_version_max" : "none",
+    "name" : "ease",
+    "os" : {
+        "macintosh" : {
+            "platform" : [ "ia32", "x64" ],
+            "min_version" : "none"
+        },
+        "windows" : {
+            "platform" : [ "ia32", "x64" ],
+            "min_version" : "none"
+        }
+    },
+    "package_extra" : {
+        "reverse_domain" : "com.cycling74",
+        "copyright" : "Copyright (c) 2016 Cycling '74"
+    },
+    "tags" : [ ],
+    "version" : "1.0.0",
+    "website" : "http://github.com/maquinitas/maquinitas-max"
+}
