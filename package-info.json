@@ -1,9 +1,9 @@
 {
     "author" : "Aarón Montoya-Moraga",
-    "description" : "Use easing functions in Max for audio, visuals, and automation.",
-    "homepatcher" : "Easing Functions.maxpat",
+    "description" : "MIDI control of MIDI hardware devices",
+    "homepatcher" : "maq.launch.maxpat",
     "max_version_min" : "7.1", "max_version_max" : "none",
-    "name" : "ease",
+    "name" : "maquinitas-max",
     "os" : {
         "macintosh" : {
             "platform" : [ "ia32", "x64" ],
@@ -15,10 +15,10 @@
         }
     },
     "package_extra" : {
-        "reverse_domain" : "com.cycling74",
-        "copyright" : "Copyright (c) 2016 Cycling '74"
+        "reverse_domain" : "io.github.maquinitas",
+        "copyright" : "Copyright (c) 2019 Aarón Montoya-Moraga"
     },
     "tags" : [ ],
-    "version" : "1.0.0",
+    "version" : "0.0.1",
     "website" : "http://github.com/maquinitas/maquinitas-max"
 }
