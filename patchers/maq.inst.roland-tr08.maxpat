@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 295.0, 118.0, 1094.0, 727.0 ],
+		"rect" : [ 93.0, 129.0, 744.0, 733.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -300,7 +300,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1206,7 +1206,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2112,7 +2112,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 0,
-							"revision" : 0,
+							"revision" : 2,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -3393,7 +3393,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1225.699951000000056, 558.99993900000004, 69.0, 20.0 ],
+					"patching_rect" : [ 1225.699951171875, 580.99993896484375, 69.0, 20.0 ],
 					"text" : "high conga"
 				}
 
@@ -4972,14 +4972,14 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "maq.util.ms-per-step.maxpat",
-				"bootpath" : "~/github/maquinitas/maquinitas-max/patches",
+				"bootpath" : "~/github/maquinitas/maquinitas-max/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "maq.util.bpm-to-ms-per-beat.maxpat",
-				"bootpath" : "~/github/maquinitas/maquinitas-max/patches",
+				"bootpath" : "~/github/maquinitas/maquinitas-max/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
