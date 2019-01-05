@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -44,7 +44,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 727.0, 222.0, 175.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "white noise - frequency domain"
 				}
 
@@ -56,7 +55,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 583.0, 222.0, 145.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "white noise - time domain"
 				}
 
@@ -117,7 +115,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 270.0, 222.0, 169.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "pink noise - frequency domain"
 				}
 
@@ -155,7 +152,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "float" ],
-					"patching_rect" : [ 175.0, 50.0, 56.0, 22.0 ],
+					"patching_rect" : [ 176.0, 50.0, 56.0, 22.0 ],
 					"sig" : 0.0
 				}
 
@@ -245,12 +242,11 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-1",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 10.0, 11.0, 83.0, 33.0 ],
-					"text" : "maquinitas\nmaq.util.noise"
+					"patching_rect" : [ 10.0, 11.0, 83.0, 20.0 ],
+					"text" : "maq.util.noise"
 				}
 
 			}
