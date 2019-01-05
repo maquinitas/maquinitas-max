@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 73.0, 79.0, 190.0, 200.0 ],
+		"rect" : [ 73.0, 79.0, 370.0, 336.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -64,7 +64,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-120",
-					"items" : [ "AU DLS Synth 1", ",", "from Max 1", ",", "from Max 2", ",", "Express  128 Port 1", ",", "Express  128 Port 2", ",", "Express  128 Port 3", ",", "Express  128 Port 4", ",", "Express  128 Port 5", ",", "Express  128 Port 6", ",", "Express  128 Port 7", ",", "Express  128 Port 8", ",", "Scarlett 18i20 USB" ],
+					"items" : [ "AU DLS Synth 1", ",", "SQ-1 MIDI OUT", ",", "SQ-1 CTRL", ",", "from Max 1", ",", "from Max 2" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -72,7 +72,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 8.0, 137.5, 155.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 155.0, 22.0 ]
+					"presentation_rect" : [ 0.0, 20.0, 155.0, 22.0 ]
 				}
 
 			}
@@ -140,12 +140,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-1",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 6.0, 123.0, 33.0 ],
-					"text" : "maquinitas\nmaq.util.midi-devices"
+					"patching_rect" : [ 8.0, 6.0, 95.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 0.0, 95.0, 20.0 ],
+					"text" : "maq.util.devices"
 				}
 
 			}

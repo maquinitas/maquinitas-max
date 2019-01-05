@@ -60,7 +60,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 199.0, 326.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 50.0, 22.0 ]
+					"presentation_rect" : [ 0.0, 20.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -83,6 +83,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 10.0, 6.0, 115.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 0.0, 115.0, 20.0 ],
 					"text" : "maq.util.parameters"
 				}
 
@@ -97,7 +99,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 88.0, 418.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 66.0, 50.0, 22.0 ]
+					"presentation_rect" : [ 0.0, 86.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -176,7 +178,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-45",
-					"items" : [ 16, "auto-fill interval", ",", 17, "flam time", ",", 18, "shuffle amount", ",", 20, "BD tone", ",", 22, "BD nuance shape", ",", 23, "BD nuance amount", ",", 24, "BD gate/mute", ",", 28, "SD tone", ",", 30, "SD nuance shape", ",", 31, "SD nuance amount", ",", 32, "SD gate/mute", ",", 36, "LC tone", ",", 37, "LB tone", ",", 38, "LC/LB nuance shape", ",", 39, "LC/LB nuance amount", ",", 40, "LC/LB gate/mute", ",", 44, "HC tone", ",", 45, "HB tone", ",", 46, "HC/HB nuance shape", ",", 47, "HC/HB nuance amount", ",", 48, "HC/HB gate/mute", ",", 52, "CL tone", ",", 53, "CB tone", ",", 54, "CL/CB nuance shape", ",", 55, "CL/CB nuance amount", ",", 56, "CL/CB gate/mute", ",", 60, "CY tone", ",", 62, "CY nuance shape", ",", 63, "CY nuance amount", ",", 64, "CY gate/mute", ",", 68, "HH tone", ",", 70, "HH nuance shape", ",", 71, "HH nuance amount", ",", 72, "HH gate/mute", ",", 76, "MA tone", ",", 78, "MA nuance shape", ",", 79, "MA nuance amount", ",", 80, "MA gate/mute", ",", 84, "TB tone", ",", 85, "GU tone", ",", 86, "TB/GU nuance shape", ",", 87, "TB/GU nuance amount", ",", 88, "TB/GU gate/mute" ],
+					"items" : "<empty>",
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -184,7 +186,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 12.5, 362.0, 170.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 44.0, 170.0, 22.0 ]
+					"presentation_rect" : [ 0.0, 64.0, 170.0, 22.0 ]
 				}
 
 			}
@@ -324,7 +326,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 58.0, 190.0, 170.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 22.0, 170.0, 22.0 ]
+					"presentation_rect" : [ 0.0, 42.0, 170.0, 22.0 ]
 				}
 
 			}
@@ -507,14 +509,7 @@
 
 			}
  ],
-		"dependency_cache" : [ 			{
-				"name" : "cc-cyclone-tt78.txt",
-				"bootpath" : "~/github/maquinitas/maquinitas-max/misc",
-				"patcherrelativepath" : "../misc",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
- ],
+		"dependency_cache" : [  ],
 		"autosave" : 0
 	}
 
