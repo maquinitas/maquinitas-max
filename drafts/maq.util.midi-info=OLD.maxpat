@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -220,7 +220,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-135",
-					"items" : [ "cc-bastl-microgranny2.txt", ",", "cc-bastl-thyme.txt", ",", "cc-cyclone-tt78.txt", ",", "cc-korg-volcabeats.txt", ",", "cc-korg-volcafm.txt", ",", "cc-korg-volcakick.txt", ",", "cc-moog-mf104m.txt", ",", "cc-moog-minitaur.txt", ",", "cc-oto-bam.txt", ",", "cc-roland-tb03.txt", ",", "cc-roland-tr09.txt", ",", "notes-roland-tr09.txt", ",", "notes-roland-tr727.txt" ],
+					"items" : [ "cc-bastl-microgranny2.txt", ",", "cc-bastl-thyme.txt", ",", "cc-cyclone-tt78.txt", ",", "cc-korg-volca-beats.txt", ",", "cc-korg-volca-fm.txt", ",", "cc-korg-volca-kick.txt", ",", "cc-moog-mf104m.txt", ",", "cc-moog-minitaur.txt", ",", "cc-oto-bam.txt", ",", "cc-roland-sh-01a.txt", ",", "cc-roland-tb-03.txt", ",", "cc-roland-tr-08.txt", ",", "cc-roland-tr-09.txt", ",", "notes-boss-dr-880.txt", ",", "notes-roland-tr-09.txt", ",", "notes-roland-tr-505.txt", ",", "notes-roland-tr-727.txt" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -351,12 +351,11 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-1",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 7.0, 128.0, 33.0 ],
-					"text" : "maquinitas\nmaq.util.midi-mapping"
+					"patching_rect" : [ 7.0, 7.0, 126.0, 20.0 ],
+					"text" : "maq.util.midi-mapping"
 				}
 
 			}

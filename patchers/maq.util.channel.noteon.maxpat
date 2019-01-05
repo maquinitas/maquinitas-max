@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 453.0, 79.0, 197.0, 329.0 ],
+		"rect" : [ 741.0, 104.0, 186.0, 298.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,7 +44,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 250.0, 55.0, 33.0 ],
+					"patching_rect" : [ 3.0, 239.0, 55.0, 33.0 ],
 					"text" : "number\nnote on"
 				}
 
@@ -56,7 +56,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 55.0, 186.0, 90.0, 33.0 ],
+					"patching_rect" : [ 55.0, 164.0, 90.0, 33.0 ],
 					"text" : "note on\nfor the channel"
 				}
 
@@ -69,7 +69,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 3.0, 186.0, 50.0, 22.0 ]
+					"patching_rect" : [ 3.0, 175.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -80,7 +80,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 3.0, 155.0, 41.0, 22.0 ],
+					"patching_rect" : [ 3.0, 144.0, 41.0, 22.0 ],
 					"text" : "+ 143"
 				}
 
@@ -92,7 +92,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 37.0, 91.0, 72.0, 22.0 ],
+					"patching_rect" : [ 37.0, 80.0, 72.0, 22.0 ],
 					"text" : "loadmess 1"
 				}
 
@@ -105,7 +105,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 3.0, 125.0, 50.0, 22.0 ]
+					"patching_rect" : [ 3.0, 114.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -116,7 +116,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 37.0, 42.0, 112.0, 47.0 ],
+					"patching_rect" : [ 33.0, 31.0, 112.0, 47.0 ],
 					"text" : "number\nMIDI channel 1-16\ndefault 1"
 				}
 
@@ -129,7 +129,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 218.0, 30.0, 30.0 ]
+					"patching_rect" : [ 3.0, 207.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -142,19 +142,18 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 3.0, 42.0, 30.0, 30.0 ]
+					"patching_rect" : [ 3.0, 31.0, 30.0, 30.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-1",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 4.0, 137.0, 33.0 ],
-					"text" : "maquinitas\nmaq.util.channel-noteon"
+					"patching_rect" : [ 7.0, 6.0, 129.0, 20.0 ],
+					"text" : "maq.util.chanel.noteon"
 				}
 
 			}

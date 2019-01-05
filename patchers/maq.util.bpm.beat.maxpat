@@ -246,8 +246,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 3.0, 2.0, 160.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 160.0, 20.0 ],
-					"text" : "maq.util.bpm-to-ms-per-beat"
+					"presentation_rect" : [ 0.0, 0.0, 104.0, 20.0 ],
+					"text" : "maq.util.bpm.beat"
 				}
 
 			}

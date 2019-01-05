@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 0,
+			"revision" : 2,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1083.0, 79.0, 197.0, 329.0 ],
+		"rect" : [ 741.0, 129.0, 214.0, 305.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -148,13 +148,11 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-1",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 14.0, 7.0, 112.0, 33.0 ],
-					"presentation_linecount" : 2,
-					"text" : "maquinitas\nmaq.util.channel-cc"
+					"patching_rect" : [ 14.0, 7.0, 111.0, 20.0 ],
+					"text" : "maq.util.channel.cc"
 				}
 
 			}
