@@ -13,6 +13,7 @@ There are two types of patches:
 
 ## List of available Max patches
 
+* maq.util.bpm-to-ms-per-beat
 * maq.util.devices
 * maq.util.parameters
 
@@ -37,7 +38,7 @@ For util patches, use bpatcher objects.
 * maq.inst.roland-sh-01a.maxpat
 * maq.inst.roland-tr-08.maxpat
 * maq.inst.roland-tr-505.maxpat
-* maq.util.bpm-to-ms-per-beat.maxpat
+
 * maq.util.ms-per-step.maxpat
 * maq.util.probability.maxpat
 * maq.util.random-modes.maxpat

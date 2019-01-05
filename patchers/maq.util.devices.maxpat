@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 73.0, 79.0, 370.0, 336.0 ],
+		"rect" : [ 545.0, 359.0, 370.0, 336.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -44,7 +44,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 8.0, 54.0, 60.0, 22.0 ],
+					"patching_rect" : [ 8.0, 32.0, 60.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -57,7 +57,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 82.5, 24.0, 24.0 ]
+					"patching_rect" : [ 8.0, 67.5, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 20.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -70,9 +72,9 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 8.0, 137.5, 155.0, 22.0 ],
+					"patching_rect" : [ 8.0, 124.5, 160.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 20.0, 155.0, 22.0 ]
+					"presentation_rect" : [ 0.0, 44.0, 160.0, 22.0 ]
 				}
 
 			}
@@ -83,7 +85,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 8.0, 111.5, 52.0, 22.0 ],
+					"patching_rect" : [ 8.0, 98.5, 52.0, 22.0 ],
 					"text" : "midiinfo"
 				}
 
@@ -95,7 +97,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 108.0, 164.0, 74.0, 33.0 ],
+					"patching_rect" : [ 108.0, 154.0, 74.0, 33.0 ],
 					"text" : "message\nMIDI device"
 				}
 
@@ -103,12 +105,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-9",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 106.0, 46.0, 48.0, 33.0 ],
-					"text" : "bang\nrefresh"
+					"patching_rect" : [ 34.0, 69.5, 89.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 24.0, 23.0, 89.0, 20.0 ],
+					"text" : "bang to refresh"
 				}
 
 			}
@@ -120,7 +123,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 76.0, 167.0, 30.0, 30.0 ]
+					"patching_rect" : [ 76.0, 154.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -133,7 +136,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 74.0, 46.0, 30.0, 30.0 ]
+					"patching_rect" : [ 76.0, 32.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -147,6 +150,24 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 95.0, 20.0 ],
 					"text" : "maq.util.devices"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"background" : 1,
+					"bgcolor" : [ 0.985537528991699, 0.009297370910645, 0.999170780181885, 1.0 ],
+					"bordercolor" : [ 0.807843137254902, 0.898039215686275, 0.909803921568627, 0.0 ],
+					"id" : "obj-6",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 108.0, 32.0, 30.0, 30.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 0.0, 160.0, 65.0 ],
+					"proportion" : 0.5
 				}
 
 			}
