@@ -17,6 +17,29 @@ There are two types of patches:
 * maq.util.devices
 * maq.util.parameters
 
+## List of available parameters
+
+### CC
+
+* Bastl microGranny 2
+* Bastl Thyme
+* Cyclone TT-78
+* Korg volca Beats
+* Korg volca FM
+* Korg volca Kick
+* Moog MF-104M
+* Moog Minitaur
+* Oto BAM
+* Roland SH-01A
+* Roland TB-03
+* Roland TR-09
+
+### Notes
+
+* Boss DR-880
+* Roland TR-09
+* Roland TR-727
+
 ## Use of maquinitas-max
 
 For util patches, use bpatcher objects.
@@ -38,7 +61,6 @@ For util patches, use bpatcher objects.
 * maq.inst.roland-sh-01a.maxpat
 * maq.inst.roland-tr-08.maxpat
 * maq.inst.roland-tr-505.maxpat
-
 * maq.util.ms-per-step.maxpat
 * maq.util.probability.maxpat
 * maq.util.random-modes.maxpat
