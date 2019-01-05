@@ -10,6 +10,6 @@
 9, 69 "cabasa";
 10, 70 "maracas";
 11, 71 "short whistle";
-11, 72 "long whistle";
-11, 73 "quijada";
-11, 74 "star chime";
+12, 72 "long whistle";
+13, 73 "quijada";
+14, 74 "star chime";

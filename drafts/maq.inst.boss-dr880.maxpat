@@ -76,7 +76,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 460.0, 183.0, 175.0, 90.0 ],
+					"patching_rect" : [ 460.0, 183.0, 174.0, 110.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -1075,22 +1075,15 @@
 		"dependency_cache" : [ 			{
 				"name" : "maq.util.bpm-to-ms-per-beat.maxpat",
 				"bootpath" : "~/github/maquinitas/maquinitas-max/patchers",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "maq.util.parameters.maxpat",
 				"bootpath" : "~/github/maquinitas/maquinitas-max/patchers",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "cc-korg-volcafm.txt",
-				"bootpath" : "~/github/maquinitas/maquinitas-max/misc",
-				"patcherrelativepath" : "../misc",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
  ],

@@ -1,0 +1,16 @@
+0, 63 "low conga";
+1, 62 "hi conga";
+2, 65 "timbale";
+3, 68 "low cowbell";
+4, 67 "hi cowbell";
+5, 39 "hand clap";
+6, 49 "crash cymbal";
+7, 51 "ride cymbal";
+8, 35 "bass drum";
+9, 38 "snare drum";
+10, 41 "mid tom";
+11, 45 "low tom";
+12, 48 "hi tom";
+13, 37 "rim shot";
+14, 42 "closed hi-hat";
+15, 46 "open hi-hat";
