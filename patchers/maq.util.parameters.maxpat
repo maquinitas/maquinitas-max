@@ -98,6 +98,7 @@
 					"bgcolor" : [ 0.0, 0.0, 0.6, 1.0 ],
 					"id" : "obj-6",
 					"maxclass" : "number",
+					"minimum" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],

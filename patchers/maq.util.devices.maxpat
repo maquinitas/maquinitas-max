@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 123.0, 145.0, 1283.0, 721.0 ],
+		"rect" : [ 165.0, 104.0, 748.0, 652.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,18 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 78.5, 151.0, 77.0, 22.0 ],
+					"text" : "prepend port"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgcolor" : [ 0.952941176470588, 0.996078431372549, 0.0, 1.0 ],
 					"id" : "obj-15",
@@ -100,10 +112,10 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.337254901960784, 0.674509803921569, 0.337254901960784, 1.0 ],
+					"bgcolor" : [ 0.0, 0.0, 0.6, 1.0 ],
 					"bgfillcolor_angle" : 270.0,
 					"bgfillcolor_autogradient" : 0.0,
-					"bgfillcolor_color" : [ 0.337254901960784, 0.674509803921569, 0.337254901960784, 1.0 ],
+					"bgfillcolor_color" : [ 0.0, 0.0, 0.6, 1.0 ],
 					"bgfillcolor_color1" : [ 0.337254901960784, 0.674509803921569, 0.337254901960784, 1.0 ],
 					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"bgfillcolor_proportion" : 0.5,
@@ -152,7 +164,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 110.5, 161.0, 74.0, 33.0 ],
+					"patching_rect" : [ 110.5, 179.0, 74.0, 33.0 ],
 					"text" : "message\nMIDI device"
 				}
 
@@ -165,7 +177,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 78.5, 161.0, 30.0, 30.0 ]
+					"patching_rect" : [ 78.5, 179.0, 30.0, 30.0 ]
 				}
 
 			}
@@ -231,8 +243,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
+					"destination" : [ "obj-7", 0 ],
 					"source" : [ "obj-5", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-7", 0 ]
 				}
 
 			}
