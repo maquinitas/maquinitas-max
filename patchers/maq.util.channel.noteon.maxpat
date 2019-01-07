@@ -10,9 +10,9 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 489.0, 193.0, 214.0, 280.0 ],
+		"rect" : [ 123.0, 145.0, 1283.0, 721.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-5",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 37.0, 31.0, 79.0, 33.0 ],
+					"text" : "number\nMIDI channel"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-18",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -51,25 +63,30 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.952941176470588, 0.996078431372549, 0.0, 1.0 ],
 					"id" : "obj-17",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 55.0, 164.0, 90.0, 33.0 ],
-					"text" : "note on\nfor the channel"
+					"patching_rect" : [ 55.0, 175.0, 121.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 50.0, 44.0, 121.0, 20.0 ],
+					"text" : "note on MIDI number"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.337254901960784, 0.674509803921569, 0.337254901960784, 1.0 ],
 					"id" : "obj-15",
 					"maxclass" : "number",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 3.0, 175.0, 50.0, 22.0 ]
+					"patching_rect" : [ 3.0, 175.0, 50.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 44.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -99,25 +116,32 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.0, 0.0, 0.6, 1.0 ],
 					"id" : "obj-11",
 					"maxclass" : "number",
+					"maximum" : 16,
+					"minimum" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 3.0, 114.0, 50.0, 22.0 ]
+					"patching_rect" : [ 3.0, 114.0, 50.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 22.0, 50.0, 22.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.952941176470588, 0.996078431372549, 0.0, 1.0 ],
 					"id" : "obj-9",
-					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 33.0, 31.0, 112.0, 47.0 ],
-					"text" : "number\nMIDI channel 1-16\ndefault 1"
+					"patching_rect" : [ 55.0, 114.0, 107.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 50.0, 22.0, 107.0, 20.0 ],
+					"text" : "MIDI channel 1-16"
 				}
 
 			}
@@ -148,12 +172,15 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.952941176470588, 0.996078431372549, 0.0, 1.0 ],
 					"id" : "obj-1",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 7.0, 6.0, 129.0, 20.0 ],
-					"text" : "maq.util.chanel.noteon"
+					"patching_rect" : [ 7.0, 6.0, 136.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 0.0, 136.0, 20.0 ],
+					"text" : "maq.util.channel.noteon"
 				}
 
 			}
@@ -170,7 +197,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 157.0, 6.0, 30.0, 30.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 160.0, 65.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 171.0, 66.0 ],
 					"proportion" : 0.5
 				}
 

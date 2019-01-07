@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 489.0, 193.0, 214.0, 280.0 ],
+		"rect" : [ 123.0, 145.0, 932.0, 721.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,20 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgcolor" : [ 0.952941176470588, 0.996078431372549, 0.0, 1.0 ],
+					"id" : "obj-7",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 66.0, 133.0, 107.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 50.0, 22.0, 107.0, 20.0 ],
+					"text" : "MIDI channel 1-16"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-18",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -51,24 +65,30 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.952941176470588, 0.996078431372549, 0.0, 1.0 ],
 					"id" : "obj-17",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 66.0, 192.0, 85.0, 20.0 ],
-					"text" : "cc for channel"
+					"patching_rect" : [ 66.0, 192.0, 89.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 50.0, 44.0, 89.0, 20.0 ],
+					"text" : "CC for channel"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.337254901960784, 0.674509803921569, 0.337254901960784, 1.0 ],
 					"id" : "obj-15",
 					"maxclass" : "number",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 14.0, 192.0, 50.0, 22.0 ]
+					"patching_rect" : [ 14.0, 192.0, 50.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 44.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -98,13 +118,18 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.0, 0.0, 0.6, 1.0 ],
 					"id" : "obj-11",
 					"maxclass" : "number",
+					"maximum" : 16,
+					"minimum" : 1,
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 14.0, 131.0, 50.0, 22.0 ]
+					"patching_rect" : [ 14.0, 131.0, 50.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 22.0, 50.0, 22.0 ]
 				}
 
 			}
@@ -147,11 +172,14 @@
 			}
 , 			{
 				"box" : 				{
+					"bgcolor" : [ 0.952941176470588, 0.996078431372549, 0.0, 1.0 ],
 					"id" : "obj-1",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 14.0, 7.0, 111.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 0.0, 111.0, 20.0 ],
 					"text" : "maq.util.channel.cc"
 				}
 
@@ -169,7 +197,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 130.0, 11.0, 30.0, 30.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 160.0, 65.0 ],
+					"presentation_rect" : [ -3.0, 0.0, 160.0, 66.0 ],
 					"proportion" : 0.5
 				}
 
