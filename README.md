@@ -13,8 +13,13 @@ There are two types of patches:
 
 ## List of available Max patches
 
-* maq.util.bpm-to-ms-per-beat
+* maq.inst.korg-sq1: for control of KORG SQ-1 sequencer.
+* maq.util.bpm.beat
+* maq.util.bpm.step
+* maq.util.channel.cc
+* maq.util.channel.noteon
 * maq.util.devices
+* maq.util.lfo~
 * maq.util.parameters
 
 ## List of available parameters
