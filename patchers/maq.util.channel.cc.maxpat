@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 741.0, 129.0, 214.0, 305.0 ],
+		"rect" : [ 489.0, 193.0, 214.0, 280.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -153,6 +153,24 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 14.0, 7.0, 111.0, 20.0 ],
 					"text" : "maq.util.channel.cc"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 270.0,
+					"background" : 1,
+					"bgcolor" : [ 0.985537528991699, 0.009297370910645, 0.999170780181885, 1.0 ],
+					"bordercolor" : [ 0.807843137254902, 0.898039215686275, 0.909803921568627, 0.0 ],
+					"id" : "obj-6",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 130.0, 11.0, 30.0, 30.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 0.0, 0.0, 160.0, 65.0 ],
+					"proportion" : 0.5
 				}
 
 			}

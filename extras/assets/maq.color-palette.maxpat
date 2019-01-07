@@ -39,6 +39,121 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-18",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 573.0, 115.0, 72.0, 20.0 ],
+					"presentation_linecount" : 2,
+					"text" : "bang output"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.337254901960784, 0.674509803921569, 0.337254901960784, 1.0 ],
+					"id" : "obj-19",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"outlinecolor" : [ 0.996, 0.996, 0.996, 1.0 ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 547.0, 113.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-17",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 573.0, 78.0, 65.0, 20.0 ],
+					"text" : "bang input"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.0, 0.0, 0.6, 1.0 ],
+					"id" : "obj-10",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"outlinecolor" : [ 0.996078431372549, 0.996078431372549, 0.996078431372549, 1.0 ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 547.0, 76.0, 24.0, 24.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 435.0, 118.0, 82.0, 20.0 ],
+					"text" : "umenu output"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.337254901960784, 0.674509803921569, 0.337254901960784, 1.0 ],
+					"bgfillcolor_angle" : 270.0,
+					"bgfillcolor_autogradient" : 0.0,
+					"bgfillcolor_color" : [ 0.337254901960784, 0.674509803921569, 0.337254901960784, 1.0 ],
+					"bgfillcolor_color1" : [ 0.337254901960784, 0.674509803921569, 0.337254901960784, 1.0 ],
+					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_proportion" : 0.5,
+					"bgfillcolor_type" : "color",
+					"id" : "obj-5",
+					"items" : "<empty>",
+					"maxclass" : "umenu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 271.0, 116.0, 160.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 435.0, 76.0, 75.0, 20.0 ],
+					"text" : "umenu input"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.0, 0.0, 0.6, 1.0 ],
+					"bgfillcolor_angle" : 270.0,
+					"bgfillcolor_autogradient" : 0.0,
+					"bgfillcolor_color" : [ 0.0, 0.0, 0.6, 1.0 ],
+					"bgfillcolor_color1" : [ 0.0, 0.0, 0.6, 1.0 ],
+					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_proportion" : 0.5,
+					"bgfillcolor_type" : "color",
+					"id" : "obj-120",
+					"items" : "<empty>",
+					"maxclass" : "umenu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 271.0, 76.0, 160.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bgcolor" : [ 0.952941176470588, 0.996078431372549, 0.0, 1.0 ],
 					"id" : "obj-25",
 					"maxclass" : "comment",
@@ -70,7 +185,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 195.0, 118.0, 58.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "int output"
 				}
 
@@ -119,7 +233,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 195.0, 76.0, 51.0, 20.0 ],
+					"patching_rect" : [ 193.0, 76.0, 51.0, 20.0 ],
 					"text" : "int input"
 				}
 
@@ -144,7 +258,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 35.0, 41.0, 107.0, 20.0 ],
+					"patching_rect" : [ 35.0, 37.0, 107.0, 20.0 ],
 					"text" : "panel background "
 				}
 
@@ -155,7 +269,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 57.0, 74.0, 68.0, 20.0 ],
+					"patching_rect" : [ 53.0, 74.0, 68.0, 20.0 ],
 					"text" : "float input"
 				}
 
