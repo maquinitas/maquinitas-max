@@ -55,7 +55,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 14.0, 7.0, 113.0, 20.0 ],
-					"text" : "maq.launch.maxpat"
+					"text" : "maquinitas.maxpat"
 				}
 
 			}
